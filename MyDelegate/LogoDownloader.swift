@@ -27,8 +27,9 @@ class LogoDownloader {
         DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
             
             let imageURL = URL(string: self.logoURL)        // URL > String
-            let imageData = NSData(contentsOf: imageURL!)   // URL.String > NSData
-            self.image = UIImage(data: imageData! as Data)  // NSData > Image
+            guard let imageData = NSData(contentsOf: imageURL!) else {return}   // URL.String > NSData
+            
+            self.image = UIImage(data: imageData as Data)  // NSData > Image
             print("image downloaded")
             
             // Once the image finishes downloading, I jump onto the MAIN THREAD TO UPDATE THE UI.

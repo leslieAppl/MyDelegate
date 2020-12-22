@@ -87,6 +87,11 @@
                             <constraint firstItem="lTX-7s-ael" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="96" id="lEe-aI-dO1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="lTX-7s-ael" id="sSa-Py-Twe"/>
+                        <outlet property="loadingLabel" destination="uyc-NS-ZyH" id="XQe-PP-ViF"/>
+                        <outlet property="loginView" destination="f2U-ZH-TTc" id="x8l-cp-Hwe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
