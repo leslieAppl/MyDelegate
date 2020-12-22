@@ -13,6 +13,8 @@
 		CEE2CDDB2590985200CAA45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CDD92590985200CAA45D /* Main.storyboard */; };
 		CEE2CDDD2590985600CAA45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CDDC2590985600CAA45D /* Assets.xcassets */; };
 		CEE2CDE02590985600CAA45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE2CDDE2590985600CAA45D /* LaunchScreen.storyboard */; };
+		CEE2CDF025917B6F00CAA45D /* LogoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CDEF25917B6F00CAA45D /* LogoDownloader.swift */; };
+		CEE2CDF325917C9000CAA45D /* LogoDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2CDF225917C9000CAA45D /* LogoDownloaderDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEE2CDDC2590985600CAA45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE2CDDF2590985600CAA45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE2CDE12590985600CAA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE2CDEF25917B6F00CAA45D /* LogoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDownloader.swift; sourceTree = "<group>"; };
+		CEE2CDF225917C9000CAA45D /* LogoDownloaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoDownloaderDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CEE2CDD32590985200CAA45D /* AppDelegate.swift */,
 				CEE2CDD52590985200CAA45D /* SceneDelegate.swift */,
 				CEE2CDD72590985200CAA45D /* ViewController.swift */,
+				CEE2CDEF25917B6F00CAA45D /* LogoDownloader.swift */,
+				CEE2CDF225917C9000CAA45D /* LogoDownloaderDelegate.swift */,
 				CEE2CDD92590985200CAA45D /* Main.storyboard */,
 				CEE2CDDC2590985600CAA45D /* Assets.xcassets */,
 				CEE2CDDE2590985600CAA45D /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE2CDD82590985200CAA45D /* ViewController.swift in Sources */,
+				CEE2CDF325917C9000CAA45D /* LogoDownloaderDelegate.swift in Sources */,
 				CEE2CDD42590985200CAA45D /* AppDelegate.swift in Sources */,
 				CEE2CDD62590985200CAA45D /* SceneDelegate.swift in Sources */,
+				CEE2CDF025917B6F00CAA45D /* LogoDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
